@@ -26,3 +26,21 @@ a{
 ul{
     list-style: none;
 }
+
+/* Header */
+.header{
+    background-color: var(--black);
+    box-shadow: 1px 1px 5px 0px var(--grey);
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+/* Logo */
+.logo{
+    display: inline-block;
+    color: var(--white);
+    font-size: 60px;
+    margin-left: 10px;
+
+}
