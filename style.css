@@ -133,3 +133,31 @@ ul{
     transform: rotate(45deg);
     top:0;
 }
+
+
+/* Responsiveness */
+
+@media (min-width: 768px) {
+    .nav{
+        max-height: none;
+        top: 0;
+        position: relative;
+        float: right;
+        width: fit-content;
+    }
+
+    .menu li{
+        float: left;
+    }
+
+    .menu a:hover{
+        background-color: transparent;
+        color: var(--grey);
+        
+    }
+    
+    .hamb{
+        display: none;
+    }
+
+}
