@@ -144,6 +144,8 @@ ul{
         position: relative;
         float: right;
         width: fit-content;
+        background-color: transparent;
+
     }
 
     .menu li{
