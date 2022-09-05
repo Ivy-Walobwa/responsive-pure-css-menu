@@ -55,7 +55,7 @@ ul{
     
 }
 
-.menu a{
+.menu a,.menu p{
     display: block;
     padding: 30px;
     color: var(--white);
@@ -69,6 +69,25 @@ ul{
 .nav{
     max-height: 0;
     transition: max-height .5s ease-out;
+}
+
+/* Sub nav */
+.subnav-content {
+    background-color:  var(--white);
+    width: 100%;
+    z-index: 1;
+    padding: 20px 0 ;
+    display: none;
+  }
+.subnav-content a {
+    color: var(--black);
+    text-decoration: none;
+    padding: 0;
+    margin: 10px 0;
+    text-align: center;
+}
+.subnav:hover .subnav-content {
+    display: block;
 }
 
 /* Menu Icon */
@@ -160,6 +179,16 @@ ul{
     
     .hamb{
         display: none;
+    }
+
+        /* Sub nav */
+    .subnav-content {
+        padding: 20px 0 ;
+        display: none;
+        background-color:  var(--black);
+    }
+    .subnav-content a {
+        color: white;
     }
 
 }
