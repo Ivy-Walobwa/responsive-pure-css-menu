@@ -32,7 +32,9 @@ ul{
     background-color: var(--black);
     box-shadow: 1px 1px 5px 0px var(--grey);
     position: sticky;
-    top: 0;
+    /* position: relative;
+    position: fixed; */
+    top: 100px;
     width: 100%;
 }
 
