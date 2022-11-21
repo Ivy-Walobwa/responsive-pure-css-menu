@@ -52,7 +52,6 @@ ul{
     float: right;
     width: fit-content;
     background-color: transparent;
-
 }
 
 .menu li{
@@ -65,7 +64,7 @@ ul{
     
 }
 
-.hamb{
+.hamb,.side-menu{
     display: none;
 }
 .menu a{
