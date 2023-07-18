@@ -52,7 +52,8 @@ ul{
     position: fixed;
     background-color: var(--black);
     overflow: hidden;
-    
+    max-height: 0;
+    transition: max-height .5s ease-out;
 }
 
 .menu a{
@@ -64,11 +65,6 @@ ul{
 
 .menu a:hover{
     background-color: var(--grey);
-}
-
-.nav{
-    max-height: 0;
-    transition: max-height .5s ease-out;
 }
 
 /* Menu Icon */
